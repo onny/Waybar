@@ -166,6 +166,7 @@ src_files = files(
     'src/modules/image.cpp',
     'src/modules/temperature.cpp',
     'src/modules/user.cpp',
+    'src/modules/stopwatch.cpp',
     'src/main.cpp',
     'src/bar.cpp',
     'src/client.cpp',

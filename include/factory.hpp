@@ -92,6 +92,7 @@
 #include "modules/image.hpp"
 #include "modules/temperature.hpp"
 #include "modules/user.hpp"
+#include "modules/stopwatch.hpp"
 
 namespace waybar {
 

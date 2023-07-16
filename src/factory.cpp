@@ -103,6 +103,9 @@ waybar::AModule* waybar::Factory::makeModule(const std::string& name) const {
     if (ref == "clock") {
       return new waybar::modules::Clock(id, config_[name]);
     }
+    if (ref == "stopwatch") {
+      return new waybar::modules::Stopwatch(id, config_[name]);
+    }
     if (ref == "user") {
       return new waybar::modules::User(id, config_[name]);
     }
